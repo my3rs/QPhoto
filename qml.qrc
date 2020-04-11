@@ -1,10 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>MainView.qml</file>
-        <file>QPhotoView.qml</file>
-        <file>ControlView.qml</file>
-    </qresource>
-    <qresource prefix="/img/icon">
+        <file>qml/ControlView.qml</file>
+        <file>qml/MainView.qml</file>
+        <file>qml/QPhotoView.qml</file>
         <file>img/icon/open.svg</file>
     </qresource>
 </RCC>

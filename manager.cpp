@@ -29,7 +29,7 @@ int Manager::startManager(int argc, char **argv)
     registerType();
 
     QQmlApplicationEngine engine;
-    const QUrl url(QStringLiteral("qrc:/MainView.qml"));
+    const QUrl url(QStringLiteral("qrc:/qml/MainView.qml"));
 
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
