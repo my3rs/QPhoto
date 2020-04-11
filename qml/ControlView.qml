@@ -61,9 +61,8 @@ Item {
         RowLayout {
             ToolButton {
                 id: btnOpen
-//                text: "Open"
                 icon.name: "open"
-                icon.source: "/img/icon/open.svg"
+                icon.source: "/icon/open.svg"
             }
 
             ToolButton {
