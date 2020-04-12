@@ -4,5 +4,10 @@
         <file>qml/MainView.qml</file>
         <file>qml/QPhotoView.qml</file>
         <file>icon/open.svg</file>
+        <file>icon/redo.svg</file>
+        <file>icon/undo.svg</file>
+        <file>icon/open.png</file>
+        <file>icon/photo.svg</file>
+        <file>font/NotoSans-Regular.ttf</file>
     </qresource>
 </RCC>

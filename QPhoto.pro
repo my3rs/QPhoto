@@ -11,7 +11,8 @@ SOURCES += \
         interface.cpp \
         manager.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += \
+    resource.qrc
 
 TRANSLATIONS += \
     QPhoto_zh_CN.ts

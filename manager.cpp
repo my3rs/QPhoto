@@ -2,6 +2,7 @@
 #include <QPainter>
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QIcon>
 
 #include "manager.h"
 #include "interface.h"
@@ -25,6 +26,7 @@ int Manager::startManager(int argc, char **argv)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
+//    app.setWindowIcon(QIcon(":/icon/photo.svg"));
 
     registerType();
 
