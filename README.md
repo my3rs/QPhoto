@@ -5,4 +5,4 @@ ImageQt重制版
 
 ## 截图
 
-![SnapShot](../icon/snapshot.png)
+![SnapShot](./icon/snapshot.png)
