@@ -6,10 +6,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
+        ImageView.cpp \
+        Interface.cpp \
         MainView.cpp \
-        image_view.cpp \
-        interface.cpp \
-        manager.cpp
+        Manager.cpp
 
 RESOURCES += \
     resource.qrc
@@ -23,6 +23,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    image_view.h \
-    interface.h \
-    manager.h
+    ImageView.h \
+    Interface.h \
+    Manager.h

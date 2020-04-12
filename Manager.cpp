@@ -4,9 +4,9 @@
 #include <QQmlApplicationEngine>
 #include <QIcon>
 
-#include "manager.h"
-#include "interface.h"
-#include "image_view.h"
+#include "Manager.h"
+#include "Interface.h"
+#include "ImageView.h"
 
 Manager::Manager() : p_image_(Q_NULLPTR)
 {

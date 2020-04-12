@@ -1,4 +1,4 @@
-#include "manager.h"
+#include "Manager.h"
 
 int main(int argc, char *argv[])
 {

@@ -1,5 +1,5 @@
-#include "image_view.h"
-#include "manager.h"
+#include "ImageView.h"
+#include "Manager.h"
 
 ImageView::ImageView(QQuickItem *parent) :
     QQuickPaintedItem(parent),

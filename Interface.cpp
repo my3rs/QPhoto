@@ -1,5 +1,5 @@
-#include "interface.h"
-#include "manager.h"
+#include "Interface.h"
+#include "Manager.h"
 
 
 Interface::Interface(QObject *parent) : QObject(parent)
